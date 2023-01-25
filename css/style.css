@@ -14,7 +14,6 @@
 }
 .row{
     display: flex;
-    justify-content: space-between;
 }
 a{
     text-decoration: none;
@@ -34,10 +33,12 @@ header{
     right: 0;
     left: 0;
 }
+header .row.container{
+    justify-content: space-between;
+}
 .logo{
    height: 35px;
 }
-
 header ul li > a{
     font-size: 20px;
     color: black;
@@ -57,8 +58,8 @@ main .row{
     justify-content: space-between;
 }
 .img-col{
-    flex-basis: 33%;
-    gap: 15px;
+    flex-basis: calc(100%/3);
+    padding: 0 10px;
 }
 .img-container{
     position: relative;
