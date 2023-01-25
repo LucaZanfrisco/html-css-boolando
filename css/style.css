@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 /* --------- */
 
@@ -44,5 +45,77 @@ header ul li > a{
 }
 header ul li > a:hover{
     color: white;
+}
+/* ------- */
+
+/* Main */
+main{
+    margin-top: 130px;
+}
+main .row{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-col{
+    flex-basis: 33%;
+    gap: 15px;
+}
+.img-container{
+    position: relative;
+}
+.img-col:hover .img-hover{
+    visibility: visible;
+}
+.img{
+    width: 100%;
+    display: block;
+}
+.img-hover{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.description{
+    margin-bottom: 50px;
+}
+.name{
+    font-weight: bold;
+}
+.sales{
+    color: red;
+}
+.price{
+    text-decoration: 1.5px line-through black;
+    margin-left: 5px;
+}
+.info-box{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+}
+.info{
+    display: inline-block;
+    padding: 5px;
+}
+.sconto{
+    background-color: red;
+}
+.eco{
+    background-color: #008000;
+}
+.pref{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 22px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+.pref:hover{
+    color: red;
 }
 /* ------- */
