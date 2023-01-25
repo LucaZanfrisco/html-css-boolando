@@ -1,0 +1,48 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* --------- */
+
+/* Common */
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* -------- */
+
+/* Header */
+header{
+    padding: 18px;
+    background-color: #ff6900;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.logo{
+   height: 35px;
+}
+
+header ul li > a{
+    font-size: 20px;
+    color: black;
+    margin: 0 10px 0;
+}
+header ul li > a:hover{
+    color: white;
+}
+/* ------- */
